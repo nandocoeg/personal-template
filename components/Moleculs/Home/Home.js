@@ -7,7 +7,7 @@ import logoRedhunter from "../../../public/Work/Redhunter.svg";
 import logoStartcode from "../../../public/Work/Startcode.svg";
 
 const description =
-  "I’m Alfito, a frontend developer based in Bogor City Indonesia. I’m the founder and CEO of Startcode Id, where we develop technologies that empower people to grow their business using web and mobile applications.";
+  "I'm Fernando, a man who loves about tech development. Just finished bachelor degree at Faculty of Computer Science, Universitas Sriwijaya. Have an interest in Data Science & Machine Learning. Currently learning about Python & NodeJS. Always take an opportunity to learn something new.";
 
 const BriefcaseIcon = (props) => {
   return (
@@ -55,18 +55,8 @@ const ArrowRightIcon = (props) => {
 const Resume = () => {
   let resume = [
     {
-      company: "Startcode ID",
-      title: "Founder & CEO",
-      logo: logoStartcode,
-      start: "2021",
-      end: {
-        label: "Present",
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: "Redhunter Academy",
-      title: "Web Developer",
+      company: "Intelligent System Research Group",
+      title: "Research Assistant",
       logo: logoRedhunter,
       start: "2022",
       end: {
@@ -75,21 +65,18 @@ const Resume = () => {
       },
     },
     {
-      company: "PT Prantara",
-      title: "Front End Developer",
-      logo: logoPrantara,
-      start: "2021",
-      end: {
-        label: "Present",
-        dateTime: new Date().getFullYear(),
-      },
+      company: "Laboratory of Multimedia and Game Programming",
+      title: "Assistant",
+      logo: logoStartcode,
+      start: "2022 February",
+      end: "2022 June",
     },
     {
-      company: "PT Kreasi Asia",
-      title: "Front End Developer",
+      company: "PT. Pupuk Sriwidjaja Palembang",
+      title: "Internship",
       logo: logoKreasiAsia,
-      start: "2021",
-      end: "2021 November",
+      start: "2022 February",
+      end: "2022 March",
     },
   ];
 
@@ -144,28 +131,28 @@ const Resume = () => {
 const Project = () => {
   let listProject = [
     {
-      title: "Dunia Anura",
-      desc: "The Dunia Anura application helps pet stores manage the animals they sell, die or for other reasons. This application was created using Next js and Express js.",
-      link: "/duniaanura",
-      date: "November 15, 2022",
+      title: "Final Task - Universitas Sriwijaya",
+      desc: "This is my final task to finish undergraduate study. I made a deep learning model to predict vital sign of icu patient using batch data from MIMIC-III dataset. I used LSTM and BiLSTM model to predict vital sign.",
+      link: "https://repository.unsri.ac.id/88458/",
+      date: "December, 2022",
     },
     {
-      title: "Kandangku",
-      desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-      link: "/kandangku",
-      date: "Oktober , 2021",
+      title: "Assistant - Laboratory of Multimedia and Game Programming",
+      desc: "When I was an assistant in Laboratory of Multimedia and Game Programming, i helped my lecturer to a project that was made using Unity.",
+      link: "/kandangku", // Link ganti
+      date: "February, 2022",
     },
     {
-      title: "Planteria",
-      desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
-      link: "/planteria",
-      date: "Maret 5, 2021",
+      title: "Internship - PT. Pupuk Sriwidjaja Palembang",
+      desc: "I was an intern in IT Department in PT. Pupuk Sriwidjaja Palembang. I helped my supervisor to make a web application that can help the company to monitor the wifi connection in the company.",
+      link: "/planteria", // Link ganti
+      date: "January, 2022",
     },
     {
-      title: "ETWPAD",
-      desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
-      link: "/planteria",
-      date: "November 17, 2021",
+      title: "Pekan Gebyar Silampari 2021",
+      desc: "Collaborate with other college students to make a submission to bring forward Kota Lubuklinggau via IKMS Kota Lubuklinggau.",
+      link: "https://ikms-linggau.blogspot.com/",
+      date: "April, 2021",
     },
   ];
   return (
@@ -220,14 +207,14 @@ const Home = () => {
       <div className="max-w-2xl mt-8">
         <TypeAnimation
           sequence={[
-            "I'm Software engineer",
+            "I'm Tech Enthusiast",
             1000,
-            "I'm front end developer and founder of Startcode Id.",
+            "I'm Data Analyst",
             2000,
           ]}
           wrapper="h1"
           cursor={true}
-          repeat={false}
+          repeat={true}
           className={
             "font-bold dark:text-white text-woodsmoke-900 text-3xl sm:text-5xl tracking-tight"
           }

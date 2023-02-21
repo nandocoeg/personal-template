@@ -6,7 +6,7 @@ export default function HomePage() {
     <>
       <Head>
         <title>
-          M Alfito Rahman - Software Engineer, Web Developer, and UI/UX Designer
+          Fernando Julian - Tech Enthusiast | Data Analyst
         </title>
       </Head>
       <About />
