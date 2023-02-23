@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
-import logoKreasiAsia from "../../../public/Work/KreasiAsia.svg";
-import logoPrantara from "../../../public/Work/Prantara.svg";
-import logoRedhunter from "../../../public/Work/Redhunter.svg";
-import logoStartcode from "../../../public/Work/Startcode.svg";
+import logoIsysrg from "../../../public/Work/isysrg.svg";
+import logoLab from "../../../public/Work/lab.svg";
+import logoPusri from "../../../public/Work/pusri.svg";
 
 const description =
   "I'm Fernando, a man who loves about tech development. Just finished bachelor degree at Faculty of Computer Science, Universitas Sriwijaya. Have an interest in Data Science & Machine Learning. Currently learning about Python & NodeJS. Always take an opportunity to learn something new.";
@@ -57,7 +56,7 @@ const Resume = () => {
     {
       company: "Intelligent System Research Group",
       title: "Research Assistant",
-      logo: logoRedhunter,
+      logo: logoIsysrg,
       start: "2022",
       end: {
         label: "Present",
@@ -67,14 +66,14 @@ const Resume = () => {
     {
       company: "Laboratory of Multimedia and Game Programming",
       title: "Assistant",
-      logo: logoStartcode,
+      logo: logoLab,
       start: "2022 February",
       end: "2022 June",
     },
     {
       company: "PT. Pupuk Sriwidjaja Palembang",
       title: "Internship",
-      logo: logoKreasiAsia,
+      logo: logoPusri,
       start: "2022 February",
       end: "2022 March",
     },
@@ -145,7 +144,7 @@ const Project = () => {
     {
       title: "Internship - PT. Pupuk Sriwidjaja Palembang",
       desc: "I was an intern in IT Department in PT. Pupuk Sriwidjaja Palembang. I helped my supervisor to make a web application that can help the company to monitor the wifi connection in the company.",
-      link: "/planteria", // Link ganti
+      link: "https://www.pusri.co.id/id", // Link ganti
       date: "January, 2022",
     },
     {
