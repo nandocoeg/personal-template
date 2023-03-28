@@ -191,6 +191,19 @@ const Project = () => {
     </>
   );
 };
+
+// contact me
+const Contact = () => {
+  return (
+    <div className="contact-card">
+      <img src="https://example.com/avatar.jpg" alt="Avatar" />
+      <h2>Jane Doe</h2>
+      <p>Phone: 555-555-5555</p>
+      <p>Email: jane.doe@example.com</p>
+    </div>
+  );
+};
+
 const Home = () => {
   return (
     <>
@@ -203,7 +216,7 @@ const Home = () => {
         height={64}
         alt={"Profile"}
       />
-      <div className="max-w-2xl mt-8">
+      <div className="mt-8">
         <TypeAnimation
           sequence={[
             "I'm Tech Enthusiast",
@@ -229,6 +242,9 @@ const Home = () => {
         <div className="flex flex-col gap-y-6 col-span-1 lg:col-span-3">
           <Resume />
         </div>
+      </div>
+      <div className="mt-8">
+        <Contact />
       </div>
     </>
   );

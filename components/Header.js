@@ -93,7 +93,7 @@ export function Header() {
               <li>
                 <Link
                   className="relative block px-3 py-2 transition hover:text-indigo-500 dark:hover:text-indigo-600"
-                  href="/projects"
+                  href="/project"
                 >
                   Projects
                 </Link>
